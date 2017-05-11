@@ -6,11 +6,12 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
 }
 
 html, body {
-    min-height:100%;
+    height:100%;
+    /* height:1.334rem; */
 }
 
 body {
-    font: normal 18% "Helvetica Neue", Helvetica, 
+    font: normal 18% "myFont", "Helvetica Neue", Helvetica,
     Tahoma, "Source Han Sans CN", "Noto Sans S Chinese", "Hiragino Sans GB", 
     "Microsoft YaHei", "sans-serif", Arial, Verdana, "\5b8b\4f53";	/*Unicode，统一码*/
     color: #fff;
@@ -101,6 +102,10 @@ i, s, em {
 .hide {display: none;}
 
 
+@font-face {
+  font-family: 'myFont';   /*字体名称*/
+  src: url('iconFont/Gotham-Book.ttf');       /*字体源文件*/
+}
 
 
 @font-face {

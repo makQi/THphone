@@ -1,4 +1,5 @@
 body {
+	position:relative;
 	background: linear-gradient(45deg,#0E1122,#19294A);
 }
 nav {
@@ -43,7 +44,18 @@ nav li {
 	margin-left:0.15rem;
 }
 .banner {
+	box-sizing:border-box;
 	height:7rem;
+	padding-top:0.9rem;
+}
+.banner h3 {
+	padding-left:0.6rem;
+	font-size:0.28rem;
+	color:#457ecd;
+}
+.banner h3 span {
+	font-size:0.16rem;
+	color:#474a5b;
 }
 footer {
 	color:#474a5b;
