@@ -1,0 +1,76 @@
+body {
+	background: linear-gradient(45deg,#0E1122,#19294A);
+}
+nav {
+	padding:0.64rem 0.38rem;
+}
+nav li {
+	height:0.28rem;
+}
+.menus {
+	font-size:0.30rem;
+}
+.search_box {
+	margin-top:2.4rem;
+	padding:0 0.8rem;
+}
+.search_box div {
+	height:0.84rem;
+}
+.search	{
+	padding-left:0.16rem;
+	width:5.06rem;
+	height:100%;
+	font-size:0.42rem;
+	background-color:#fff;
+	box-sizing:border-box;
+}
+.search_btn {
+	float:right;
+	width:0.84rem;
+	height:100%;
+	text-align:center;
+	line-height:0.84rem;
+	font-size:0.48rem;
+	background-color:#2157DB;
+}
+.hotspot_search {
+	margin-top:0.2rem;
+	font-size:0.28rem;
+}
+.hotspot_search li {
+	float:left;
+	margin-left:0.15rem;
+}
+.banner {
+	height:7rem;
+}
+footer {
+	color:#474a5b;
+	text-align:center;
+}
+
+/* 登录管理 */
+.user_manage {
+	position:absolute;
+	width:5.76rem;
+	height:100%;
+	top:0;
+	right:-5.76rem;
+	background-color:#1C4BBD;
+}
+.user_manage li {
+	padding:0.58rem 0.4rem;
+	font-size:0.32rem;
+	text-align:center;
+	border-bottom:0.02rem solid #3062DB;
+}
+.user_manage li:last-child {
+	border:none;
+}
+.close {
+	padding:0.58rem 0.4rem;
+	font-size:0.38rem;
+	text-align:right;
+}
+/* 登录管理 */

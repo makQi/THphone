@@ -1,0 +1,44 @@
+main {
+	padding:0 0.4rem;
+}
+.manamge_box {
+	box-sizing:border-box;
+	text-align:center;
+	height:1.1rem;
+	margin:0 0.1rem;
+	font-size:0.36rem;
+	line-height:1.1rem;
+	border-bottom:0.02rem solid #353954;
+}
+.iconfont {
+	float:left;
+	font-size:0.36rem;
+	margin-top:0.37rem;
+}
+.industry {
+	height:12.24rem;
+	overflow:auto;
+}
+.industry::-webkit-scrollbar{width:0;height:0;}
+.industry li {
+	box-sizing:border-box;
+	height:1.45rem;
+	margin-bottom:0.2rem;
+	padding:0.34rem 0.3rem;
+	background-color:#0e245e;
+	border:0.02rem solid #2157db;
+}
+.industry li:first-child {
+	margin-top:0.35rem;
+}
+.fl {
+	height:100%;
+}
+.fr {
+	font-size:0.28rem;
+	margin-right:0.15rem;
+	line-height:0.75rem;
+}
+.fl h3 {
+	font-size:0.32rem;
+}
