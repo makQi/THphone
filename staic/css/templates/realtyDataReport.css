@@ -1,0 +1,18 @@
+header {
+	padding:0 0.4rem;
+}
+
+header .iconfont {
+	float:left;
+	font-size:0.36rem;
+	margin-top:0.37rem;
+}
+header .manamge_box {
+	box-sizing:border-box;
+	text-align:center;
+	height:1.1rem;
+	margin:0 0.1rem;
+	font-size:0.36rem;
+	line-height:1.1rem;
+	border-bottom:0.02rem solid #353954;
+}

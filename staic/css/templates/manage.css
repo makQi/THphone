@@ -1,7 +1,12 @@
-main {
+header, main {
 	padding:0 0.4rem;
 }
-.manamge_box {
+header .iconfont {
+	float:left;
+	font-size:0.36rem;
+	margin-top:0.37rem;
+}
+header .manamge_box {
 	box-sizing:border-box;
 	text-align:center;
 	height:1.1rem;
@@ -9,11 +14,6 @@ main {
 	font-size:0.36rem;
 	line-height:1.1rem;
 	border-bottom:0.02rem solid #353954;
-}
-.iconfont {
-	float:left;
-	font-size:0.36rem;
-	margin-top:0.37rem;
 }
 .industry {
 	height:12.24rem;
@@ -36,8 +36,8 @@ main {
 }
 .fr {
 	font-size:0.28rem;
+	margin-top:0.18rem;
 	margin-right:0.15rem;
-	line-height:0.75rem;
 }
 .fl h3 {
 	font-size:0.32rem;

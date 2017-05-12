@@ -1,6 +1,7 @@
 body {
 	overflow:hidden;
-	background: linear-gradient(45deg,#0E1122,#19294A);
+	/* background: linear-gradient(45deg,#0E1122,#19294A); */
+	background: linear-gradient(210deg, #2a447b, #11172e 40%, #0e1122 100%);
 }
 nav {
 	padding:0.64rem 0.38rem;
@@ -48,19 +49,85 @@ nav li {
 	height:7rem;
 	padding-top:0.9rem;
 }
-.banner h3 {
+.banner > h3 {
 	padding-left:0.6rem;
+	padding-bottom:0.16rem;
 	font-size:0.28rem;
 	color:#457ecd;
 }
-.banner h3 span {
+.banner > h3 > span {
 	font-size:0.16rem;
 	color:#474a5b;
 }
 footer {
+	margin-top:0.16rem;
 	color:#474a5b;
 	text-align:center;
 }
+
+
+/* 轮播图 */
+.banner_box {
+	position:relative;
+}
+.swiper-button-next, .swiper-button-prev {
+	width:0.18rem;
+	height:0.3rem;
+	margin-top:-1rem;
+	background-size: 0.18rem 0.3rem;
+}
+.swiper-slide {
+	height:5.4rem;
+	text-align: center;
+	background: transparent;
+	
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.swiper-pagination-bullet {background:#494B4A;}
+.swiper-pagination-bullet-active {background:#007aff;}
+.banner_flex {
+	display:-webkit-flex;
+	display:flex;
+	box-sizing:border-box;
+	width:100%;
+	height:100%;
+	padding:0 0.5rem;
+}
+.banner_flex li {
+	box-sizing:border-box;
+	width:2.4rem;
+	height:100%;
+	padding:0 0.1rem;
+}
+.banner_img {
+	height:3.4rem;
+	border:0.02rem solid #2157DB;
+	background:url('../imgs/cover.jpg') no-repeat center;
+	background-size:2.1rem 3.4rem;
+}
+.banner_flex span {
+	display:block;
+	width:100%;
+	font-size:0.12rem;
+	text-align:left;
+}
+.banner_flex h3, .banner_flex p  {
+	font-size:0.26rem;
+	text-align:left;
+}
+/* 轮播图 */
+
 
 /* 登录管理 */
 .user_manage {
@@ -70,6 +137,7 @@ footer {
 	top:0;
 	right:-5.76rem;
 	background-color:#1C4BBD;
+	z-index:99;
 }
 .user_manage li {
 	padding:0.58rem 0.4rem;

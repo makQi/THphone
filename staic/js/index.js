@@ -38,3 +38,12 @@ $('.menus').click(function(){
 $('.close a').click(function(){
 	$(this).parents('.user_manage').animate({right: '-5.76rem'});
 });
+
+var swiper = new Swiper('.swiper-container', {
+	pagination: '.swiper-pagination',
+	// paginationClickable: true,
+	nextButton: '.swiper-button-next',
+	prevButton: '.swiper-button-prev',
+	spaceBetween: 30
+});
+
